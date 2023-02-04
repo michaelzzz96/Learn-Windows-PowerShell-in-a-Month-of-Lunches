@@ -29,3 +29,20 @@ Write-Output 'Question 10'
 Help Get-Process -Parameter computername
 
 Write-Output 'Question 11'
+Help Out-File –Parameter Width
+
+Write-Output 'Question 12'
+Help Out-File -Full
+
+Write-Output 'Question 13'
+Get-Alias
+
+Write-Output 'Question 14'
+Get-Help ps
+ps -c Server1
+
+Write-Output 'Question 15'
+get-help *object*
+
+Write-Output 'Question 16'
+get-help *array*
